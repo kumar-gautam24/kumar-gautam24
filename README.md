@@ -1,8 +1,18 @@
 ## Gautam Kumar
 
-Flutter & backend engineer in Bangalore. I build production mobile apps, backend services, and on-device AI.
+Flutter & backend engineer · Bangalore
 
-Currently at **Ailoitte**, contracted to [Fractal Analytics](https://fractal.ai) — core engineer on [Vaidya AI](https://apps.apple.com/ph/app/vaidya-ai/id6758719321), an enterprise health platform with **25K+ downloads** ranked in the top 110 medical apps on iOS.
+Currently at **Ailoitte**, contracted to [Fractal Analytics](https://fractal.ai) — core mobile & backend engineer on [Vaidya AI](https://apps.apple.com/ph/app/vaidya-ai/id6758719321), an enterprise health platform ranked in the top 110 medical apps on iOS with **25K+ downloads**.
+
+---
+
+![Flutter](https://img.shields.io/badge/Flutter-02569B?logo=flutter&logoColor=white&style=flat-square)
+![Dart](https://img.shields.io/badge/Dart-0175C2?logo=dart&logoColor=white&style=flat-square)
+![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white&style=flat-square)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?logo=fastapi&logoColor=white&style=flat-square)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?logo=postgresql&logoColor=white&style=flat-square)
+![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
+![Kotlin](https://img.shields.io/badge/Kotlin-A97BFF?logo=kotlin&logoColor=white&style=flat-square)
 
 ---
 
@@ -10,37 +20,33 @@ Currently at **Ailoitte**, contracted to [Fractal Analytics](https://fractal.ai)
 
 | Project | Stack | Impact |
 |---|---|---|
-| [Vaidya AI](https://apps.apple.com/ph/app/vaidya-ai/id6758719321) | Flutter · FastAPI · PostgreSQL · HealthKit | 25K+ downloads · top 110 medical on iOS · Fractal Analytics |
-| [Guardian Bubble](https://play.google.com/store/apps/details?id=com.guardianbubble.parent&hl=en_IN) | Flutter · FCM · WebSocket · OpenVidu | Real-time GPS · SOS in killed-app state · 99.9% crash-free |
-| [Flizz](https://apps.apple.com/in/app/flizz/id6742513740) | Flutter · RevenueCat · Firebase | 10K+ downloads · 6 party games · subscriptions |
-| [Manpower Management](https://manpower-management-system.vercel.app) | Go · PostgreSQL · Docker · Render | 178+ employees · UAE client · live since 2024 |
+| [Vaidya AI](https://apps.apple.com/ph/app/vaidya-ai/id6758719321) | Flutter · FastAPI · HealthKit · Health Connect · PostgreSQL | 25K+ downloads · top 110 medical on iOS |
+| [Guardian Bubble](https://play.google.com/store/apps/details?id=com.guardianbubble.parent&hl=en_IN) | Flutter · FCM · WebSocket · Google Maps | 99.9% crash-free · SOS in killed-app state |
+| [Flizz](https://apps.apple.com/in/app/flizz/id6742513740) | Flutter · RevenueCat · Firebase | 10K+ downloads · cross-platform subscriptions |
+| [Manpower Management](https://manpower-management-system.vercel.app) | Go · PostgreSQL · Docker · Render | UAE client · 178+ employees · live since 2024 |
 
-Some specifics: cut Vaidya AI cold start **71%** (3.5s → <1s), binary size **35%**, synced **10,600+ HealthKit/Health Connect entries per user** with idempotent upserts, built a Razorpay payment microservice with HMAC-SHA256 webhook verification and atomic SQL credit deduction.
+Engineering specifics: cut Vaidya AI cold start **71%** (3.5s → <1s) and binary size **35%**. Dual-platform HealthKit + Health Connect sync handling **10,600+ entries/user** with idempotent upserts. FastAPI payment microservice with HMAC-SHA256 Razorpay webhook verification and atomic SQL credit deduction. Security-hardened against SOC audit: SSL pinning, root/jailbreak detection, OAuth injection fix.
 
 ---
 
-### Stack
+### Code
 
-**Mobile** — Flutter · Dart · Android (Kotlin) · iOS native · HealthKit · Health Connect  
-**Backend** — Go (Chi) · FastAPI · PostgreSQL · WebSocket · REST  
-**Infra** — Docker · Kubernetes · CI/CD · Firebase · Render · Neon  
-**On-device AI** — flutter_gemma · LiteRT-LM · Ollama · Gemma · Qwen · DeepSeek
+![Metrics](github-metrics.svg)
 
 ---
 
 ### Open source
 
-**[StacDev/stac](https://github.com/StacDev/stac/pull/388)** — contributed Badge widget + JSON parser to a 786★ Flutter SDUI framework. [PR #388](https://github.com/StacDev/stac/pull/388) merged to production.
+**[StacDev/stac](https://github.com/StacDev/stac/pull/388)** &nbsp;—&nbsp; contributed Badge widget + JSON parser to a 786★ Flutter SDUI framework. [PR #388](https://github.com/StacDev/stac/pull/388) merged to production.
 
-**[playground](https://github.com/kumar-gautam24/playground)** — Flutter app for fully offline LLM chat. Download Gemma, Qwen, or DeepSeek and run inference on-device. No cloud, no API key.
+**[playground](https://github.com/kumar-gautam24/playground)** &nbsp;—&nbsp; fully offline LLM chat on Android. Download Gemma, Qwen, or DeepSeek and run inference on-device. No cloud. No API key.
 
 ---
 
 ### Background
 
-B.Tech CSE · Darbhanga College of Engineering · **GATE CS qualified**  
-**ICPC Kanpur Regional 2022** qualifier · Top 1% competitive programming  
-[CodeChef](https://codechef.com/users/gautam_kumar24) · [Codeforces](https://codeforces.com/profile/kumar_gautam24) · [LeetCode](https://leetcode.com/u/gk39951/)
+B.Tech CSE · Darbhanga College of Engineering · **GATE CS qualified** · **ICPC Kanpur Regional 2022** qualifier  
+[CodeChef](https://codechef.com/users/gautam_kumar24) &nbsp;·&nbsp; [Codeforces](https://codeforces.com/profile/kumar_gautam24) &nbsp;·&nbsp; [LeetCode](https://leetcode.com/u/gk39951/)
 
 ---
 
