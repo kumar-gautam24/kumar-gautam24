@@ -20,25 +20,22 @@ jobs:
           base: header, repositories
           base_hireable: yes
 
-          # Language breakdown from commit diffs — not file tree weights
-          # This correctly shows Dart/Go/Python instead of C++ from Flutter build files
+          # Language breakdown — indepth disabled (was causing "No push activity found")
           plugin_languages: yes
-          plugin_languages_indepth: yes
+          plugin_languages_indepth: no
           plugin_languages_ignored: >-
             cmake, c, c++, html, css, makefile, dockerfile,
             shell, batchfile, ruby, cython, swift
           plugin_languages_limit: 6
           plugin_languages_threshold: 0%
-          plugin_languages_recent_load: 500
-          plugin_languages_recent_days: 180
 
           # Isometric 3D contribution calendar
           plugin_isocalendar: yes
           plugin_isocalendar_duration: full-year
 
-          # Coding habits deduced from last 1000 events
+          # Coding habits — reduced events to avoid unexpected error
           plugin_habits: yes
-          plugin_habits_from: 1000
+          plugin_habits_from: 200
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_charts: yes
