@@ -35,10 +35,14 @@ jobs:
           committer_message: "chore: update activity card [skip ci]"
           committer_branch: main
 
-          # half-year, not full-year: the isometric calendar is a diagonal band,
-          # so a longer range only adds empty triangles above and below it
+          # full-year, despite the diagonal band being less dense than
+          # half-year: the streak figures are computed only from the window
+          # fetched here, and half-year truncated the best streak to 100 days
+          # when the real figure is 158. Understating a headline stat is worse
+          # than a slightly taller card, and at 480px wide the band is compact
+          # enough regardless.
           plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
+          plugin_isocalendar_duration: full-year
 
       # ── Card 2: language breakdown ─────────────────────────────────────────
       - name: Languages card

@@ -16,6 +16,7 @@ Currently at **Ailoitte**, contracted to [Fractal Analytics](https://fractal.ai)
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square)
 ![Pub/Sub](https://img.shields.io/badge/Pub%2FSub-4285F4?logo=googlecloud&logoColor=white&style=flat-square)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white&style=flat-square)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?logo=githubactions&logoColor=white&style=flat-square)
 
 ---
 
@@ -27,6 +28,7 @@ Currently at **Ailoitte**, contracted to [Fractal Analytics](https://fractal.ai)
 | [Guardian Bubble](https://play.google.com/store/apps/details?id=com.guardianbubble.parent&hl=en_IN) | Flutter · FCM · WebSocket · Google Maps | 99.9% crash-free · SOS in killed-app state |
 | [Flizz](https://apps.apple.com/in/app/flizz/id6742513740) | Flutter · RevenueCat · Firebase | 10K+ downloads · cross-platform subscriptions |
 | [Manpower Management](https://manpower-management-system.vercel.app) | Go · PostgreSQL · Docker · Render | UAE client · 178+ employees · live since 2024 |
+| [Honest Ledger](https://github.com/kumar-gautam24/honest-ledger) **(source)** | Flutter · Riverpod · Drift · FastAPI · AWS EC2 | recurring-bill & real No-Cost-EMI cost engine · provider-agnostic LLM layer · SSH deploy on GitHub Actions |
 
 - **Performance** — cut Vaidya AI cold start **71%** (3.5s → <1s) and binary size **35%**
 - **Scale** — dual-platform HealthKit + Health Connect sync handling **10,600+ entries/user** with idempotent upserts
