@@ -21,10 +21,10 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="407.1133376943445" height="8" fill="#00B4AB"/>
-                    <rect mask="url(#languages-bar)" x="407.1133376943445" y="0" width="48.92238729453093" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="456.0357249888755" y="0" width="3.066874225646089" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="459.10259921452155" y="0" width="0.8974007854784616" height="8" fill="#00ADD8"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="401.29532870775745" height="8" fill="#00B4AB"/>
+                    <rect mask="url(#languages-bar)" x="401.29532870775745" y="0" width="54.700705580835134" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="455.9960342885926" y="0" width="3.0267975869057144" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="459.0228318754983" y="0" width="0.9771681245016762" height="8" fill="#384d54"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -36,7 +36,7 @@
                                 Dart
                             </div>
                             <small>
-                                <div>88.5%</div>
+                                <div>87.24%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -47,7 +47,7 @@
                                 TypeScript
                             </div>
                             <small>
-                                <div>0.67%</div>
+                                <div>0.66%</div>
                             </small>
                         </div>
                     </section>
@@ -60,18 +60,18 @@
                                 Python
                             </div>
                             <small>
-                                <div>10.64%</div>
+                                <div>11.89%</div>
                             </small>
                         </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#00ADD8" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#384d54" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                Go
+                                Dockerfile
                             </div>
                             <small>
-                                <div>0.2%</div>
+                                <div>0.21%</div>
                             </small>
                         </div>
                     </section>
